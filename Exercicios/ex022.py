@@ -1,0 +1,6 @@
+nome = str(input('Nome completo: '))
+print('Maiusculas: {}'.format(nome.upper()))
+print('minusculas: {}'.format(nome.lower()))
+print(len(nome) - nome.count(' '))
+nome = nome.split()
+print('Qnt letras tem o prineiro nome: {}'.format(len(nome[0])))
