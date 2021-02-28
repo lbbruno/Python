@@ -1,2 +1,2 @@
 # Python
- Aqui vo encontra exercícios e projetos criados em linguagem **Python**
+ Aqui você encontra exercícios e projetos criados em linguagem **Python**
