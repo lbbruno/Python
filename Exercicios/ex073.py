@@ -1,0 +1,16 @@
+div = ('='*40)
+times = ('', 'São Paulo', 'Internacional', 'Atletico-MG', 'Flamengo', 'Grêmio', 'Palmeiras',
+         'Palmeiras', 'Fluminense', 'Santos', 'Ceará', 'Corinthians',)
+print(f'Lista de times do Brasileirão\n{times[1:]}')
+print(div)
+print(f'Os 5 primeiros são:')
+print(f'{times[1:6]}')
+print(div)
+print('Os 4 últimos são:')
+print(f'{times[7:]}')
+print(div)
+print('Times em ordem alfabética:')
+print(f'{sorted(times[1:])}')
+print(div)
+print(f'O Grêmio está na {times.index("Grêmio")}ª posição')
+
