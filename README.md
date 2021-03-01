@@ -10,5 +10,5 @@ print("Enjoy!")
 _*Obs: No diretório estão os arquivos contendo somente os códigos*_
 
 ## Projeto Calculadora
-* [Clique Aqui](https://github.com/lbbruno/Python/tree/main/Projetos/Calculadora.py)
+* Vizualize o [Código](https://github.com/lbbruno/Python/tree/main/Projetos/Calculadora.py)
 <img src="img/calc.png" alt="calculadora">
