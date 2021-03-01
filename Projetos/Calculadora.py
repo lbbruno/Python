@@ -1,6 +1,4 @@
 from tkinter import *
-# == Functions
-
 
 def calc_main():
     class Calculadora():
