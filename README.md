@@ -8,3 +8,6 @@ print("Enjoy!")
 ```
 
 _*Obs: No diretório estão os arquivos contendo somente os códigos*_
+
+## Projeto Calculadora
+<img src="img/calc.png" alt="calculadora">
