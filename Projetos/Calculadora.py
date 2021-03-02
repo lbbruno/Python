@@ -1,4 +1,5 @@
 from tkinter import *
+from math import sqrt
 
 def calc_main():
     class Calculadora():
@@ -9,15 +10,15 @@ def calc_main():
             # Instanciando Labels
             self.entry_resultado = Entry(frm_resultado, width=13, bg='#fff', font=('helvetica', 32))
 
-            #instanciando Botões
-            btn_porcento = Button(frm_botoes, text='%', width=10, pady=10, command=lambda: self.click('%'))
-            btn_raiz = Button(frm_botoes, text='raiz', width=10, pady=10, command=lambda: self.click(''))
-            btn_exp = Button(frm_botoes, text='Exp', width=10, pady=10, command=lambda: self.click('**'))
+            # Instanciando Botões
+            btn_porcento = Button(frm_botoes, text='%', width=10, pady=10)
+            btn_raiz = Button(frm_botoes, text=u'\u221A', width=10, pady=10, command=lambda: self.click('sqrt'))
+            btn_exp = Button(frm_botoes, text=u'x\u00B2', width=10, pady=10, command=lambda: self.click('sqr'))
             btn_fracao = Button(frm_botoes, text='1/x', width=10, pady=10, command=lambda: self.click(''))
 
             btn_CE = Button(frm_botoes, text='CE', width=10, pady=10, state=DISABLED)
             btn_C = Button(frm_botoes, text='C', width=10, pady=10, command=self.clear)
-            btn_back = Button(frm_botoes, text='<<', width=10, pady=10, command=self.clear_end)
+            btn_back = Button(frm_botoes, text=u'\u232B', width=10, pady=10, command=self.clear_end)
             btn_div = Button(frm_botoes, text='/', width=10, pady=10, command=lambda: self.click('/'))
 
             btn_7 = Button(frm_botoes, text='7', width=10, pady=10, command=lambda: self.click('7'))
@@ -35,7 +36,7 @@ def calc_main():
             btn_3 = Button(frm_botoes, text='3', width=10, pady=10, command=lambda: self.click('3'))
             btn_soma = Button(frm_botoes, text='+', width=10, pady=10, command=lambda: self.click('+'))
 
-            btn_inverte_sinal = Button(frm_botoes, text='+/-', width=10, pady=10)
+            btn_inverte_sinal = Button(frm_botoes, text=u'\u00B1', width=10, pady=10)
             btn_zero = Button(frm_botoes, text='0', width=10, pady=10, command=lambda: self.click('0'))
             btn_ponto = Button(frm_botoes, text=',', width=10, pady=10, command=lambda: self.click('+'))
             btn_iqual = Button(frm_botoes, text='=', width=10, pady=10, command=self.igual)
@@ -95,6 +96,7 @@ def calc_main():
 
     root = Tk()
     root.title('Calculadora')
+    root.iconbitmap('favicon.ico')
     root.resizable(False, False)
     my_gui = Calculadora(root)
     root.mainloop()
