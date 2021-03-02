@@ -15,6 +15,7 @@ _*Obs: No diretório estão os arquivos contendo somente os códigos*_
 
 Próximas atualizações
 * Otimização do código
-* Implementação de funções não disponíveis no momento.
+* Implementação de funções não disponíveis no momento
+* Melhorias na Interface
 
 _*Obs: Projeto não concluido*_
