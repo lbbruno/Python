@@ -8,14 +8,3 @@ print("Enjoy!")
 ```
 
 _*Obs: No diretório estão os arquivos contendo somente os códigos*_
-
-## Calculadora
-* [Vizualize o Código](https://github.com/lbbruno/Python/tree/main/Projetos/Calculadora.py
-<img src="img/calc.png" alt="calculadora">
-
-Próximas atualizações
-* Otimização do código
-* Implementação de funções não disponíveis no momento
-* Melhorias na Interface
-
-_*Obs: Projeto não concluido*_
