@@ -7,4 +7,8 @@ Veja: [Exercícios](https://github.com/lbbruno/Python/tree/main/Exercicios)
 print("Enjoy!")
 ```
 
+## Conversor de Moeda
+* Conversor de cotação de moeda entre Real, Dolar e Euro
+<img src="/img/conversor_moeda.png">
+
 _*Obs: No diretório estão os arquivos contendo somente os códigos*_
