@@ -7,6 +7,12 @@ Veja: [Exercícios](https://github.com/lbbruno/Python/tree/main/Exercicios)
 print("Enjoy!")
 ```
 
+## Binary Search
+* Algoritimo de comparação entre Navie Search e Binary Search.
+Comparação de tempo de execução em uma lista de 100.000 números gerados aleatóriamente.
+<img src="/img/Binary_Search.png">
+
+
 ## Conversor de Moeda
 * Conversor de cotação de moeda entre Real, Dolar e Euro
 <img src="/img/conversor_moeda.png">
